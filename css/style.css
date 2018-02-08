@@ -1,0 +1,401 @@
+/*Heading*/
+
+h1 {
+    font-size: 35px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Subheading*/
+
+p {
+    font-size: 28px;
+    color: black;
+    margin-top: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Subheading*/
+
+h3 {
+    font-size: 28px;
+    color: black;
+    margin-top: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Beginning of main body*/
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+
+/*Image Transition*/
+
+.parallax {
+    background-image: url("../img/image8.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*First flex division*/
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropbtn11 {
+    flex: 1;
+}
+
+.dropbtn22 {
+    flex: 1;
+}
+
+.dropbtn33 {
+    flex: 1;
+}
+
+.dropbtn11 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+
+/*Animations*/
+
+.dropbtn11:hover {
+    opacity: 1
+}
+
+.dropbtn22 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.dropbtn22:hover {
+    opacity: 1
+}
+
+.dropbtn33 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.dropbtn33:hover {
+    opacity: 1
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropbtn1 {
+    flex: 1;
+}
+
+.dropbtn2 {
+    flex: 1;
+}
+
+.dropbtn3 {
+    flex: 1;
+}
+
+.dropbtn1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.dropbtn1:hover {
+    opacity: 1
+}
+
+.dropbtn2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.dropbtn2:hover {
+    opacity: 1
+}
+
+.dropbtn3 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.dropbtn3:hover {
+    opacity: 1
+}
+
+/*Third section*/
+
+#3 h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#3 h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Fourth Section including header and footer*/
+
+.section4 .heading {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 80px;
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*Various panels*/
+
+.part1 {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    background: #D4A18C;
+}
+
+.part2 {
+    flex: 1;
+    padding-top: 10px;
+    margin-top: 10px;
+    background: #E2CDD3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.part3 {
+    flex: 1;
+    padding-top: 10px;
+    margin-top: 10px;
+    background: #9E988F;
+}
+
+
+/*Footer*/
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer .sub2 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: -100px;
+    padding-right: 10px;
+}
+footer .fa {
+    font-size: 35px;
+    width: 80px;
+    text-align: left;
+    text-decoration: none;
+    padding-top: auto;
+    padding-bottom: 20px;
+}
+
+footer .fa:hover {
+    opacity: 0.7;
+}
+
+footer a .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+footer a .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+footer a .fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+
+
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+header p .sub2 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Fifth Section- nested flex*/
+
+.container {
+    display: flex;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.red {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.green {
+    flex:1;
+    height: 150px;
+    background-image: url("../img/i2.jpg");
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.blue {
+    flex: 1;
+    background-image: url("../img/i1.jpg");
+    margin-top: 10px;
+    margin-left: 5px;
+ }
+
+.yellow {
+    background-image: url("../img/i6.jpg");
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.orange {
+    background-image: url("../img/i7.jpg");
+    margin-right: 10px;
+}
+
+.container div {
+    font-size: 5vw;
+    padding: .0px;
+    color: white;
+    flex: 1;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 300px;
+}
